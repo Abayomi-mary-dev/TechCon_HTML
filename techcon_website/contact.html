@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - TechCon 2024</title>
+</head>
+<body>
+    <!--header section-->
+    <header>
+        <h1>Contact Us</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="schedule.html">Schedule</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!--Contact Information Section-->
+        <section>
+            <h2>Contact Information</h2>
+            <p>Email: <a href="mailto:email@example.com">email@example.com</a></p>
+            <p>Follow us on:</p>
+            <ul>
+                <li><a href="https://twitter.com/example" target="_blank">Twitter</a></li>
+                <li><a href="https://facebook.com/example" target="_blank">Facebook</a></li>
+                <li><a href="https://linkedin.com/example" target="_blank">Linkedin</a></li>
+            </ul>
+        </section>
+        <!--Google maps enbedded-->
+        <section>
+            <h2>Find Us Here</h2>
+            <iframe
+            src="https://www.google.com/maps/embed?" width="600" height="450" style="borde:0;" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+        <!--contact us form-->
+        <section>
+            <h2>Contact Us Form</h2>
+            <form action="#" method="post">
+                <!--name field-->
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name"
+                    placeholder="Enter your full name" required>
+                </div>
+                 <!--Email field-->
+    <div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"
+        placeholder="Enter your email address" required>
+    </div>
+    <!--message field-->
+    <div>
+        <label for="message">Message:</label>
+        <textarea  id="message" name="message"
+        placeholder="Write your message here" rows="5" required></textarea>
+    </div>
+    <!--Submit Button-->
+    <div>
+    <button type="submit">Send Message</button>
+    </div>
+            </form>
+        </section>
+    </main>
+    <!--footer section-->
+    <footer>
+        <p>&copy; copyright 2024 TechCon. All rights reserved.</p>
+    </footer>
+    </body>
+</html>
